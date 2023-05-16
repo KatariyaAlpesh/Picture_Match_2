@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage"
+    android:orientation="vertical"
+    android:background="@drawable/background_homepage"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/LLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:background="@drawable/greenboder_background"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/TextViewNoTimeLimit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="NO TIME LIMIT"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_rama"
+                android:gravity="center"
+                android:background="@color/teal_700"
+                android:layout_weight="1"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewNormal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="NORMAL"
+                android:textColor="@color/light_rama"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@color/teal_700"
+                android:layout_weight="1"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewHard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HARD"
+                android:textColor="@color/light_rama"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@color/teal_700"
+                android:layout_weight="1"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LLayout1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/greenboder_background"
+
+        >
+        <TextView
+            android:id="@+id/TextViewRemoveAds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="REMOVE ADS"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/light_rama"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:background="@color/teal_700"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLayout3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LLayout2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/greenboder_background"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <TextView
+                android:id="@+id/TextViewShare"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="SHARE"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_rama"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/teal_700"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewMoreGame"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="MORE GAMES"
+                android:padding="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/light_rama"
+                android:background="@color/teal_700"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

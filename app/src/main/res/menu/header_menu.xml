@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Share"
+          android:icon="@drawable/share"
+          android:title="Share"
+        >
+    </item>
+    <item android:id="@+id/More_Game"
+        android:icon="@drawable/baseline_videogame_asset_24"
+        android:title="More_Game"
+        >
+    </item>
+    <item android:id="@+id/Privacy_Policy"
+        android:icon="@drawable/baseline_policy_24"
+        android:title="Privacy_Policy"
+        >
+    </item>
+    <item android:id="@+id/Sound"
+        android:icon="@drawable/img_3"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>
